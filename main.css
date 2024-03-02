@@ -28,17 +28,20 @@ ul {
   font-weight: 700;
 }
 
-.weather {
-  width: 300px;
-  border: 2px solid gray;
-}
 
 .weather p {
   font-size: 40px;
 }
 
-.above-the-fold .weather {
+.above-the-fold {
+  display: inline-flex;
+}
+
+
+.weather {
   display: inline-block;
+  width: 300px;
+  border: 2px solid gray;
 }
 
 .breaking-news {
@@ -52,13 +55,16 @@ ul {
 .click-bait__item {
   display: inline-block;
   box-sizing: border-box;
+  justify-content: center;
+  text-align: center;
   width: 250px;
   margin: 16px;
   padding: 16px;
 }
 
 .below-the-fold__item {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
 }
 
 .below-the-fold__img {
@@ -70,4 +76,11 @@ ul {
 
 .below-the-fold__content {
   width: 500px;
+
+}
+
+.page__footer-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
