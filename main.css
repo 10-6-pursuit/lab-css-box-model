@@ -1,3 +1,37 @@
 * {
   border: 1px solid gold;
 }
+
+p {
+  font-family: sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: serif;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #4242EA;
+}
+
+ul {
+  list-style: none;
+}
+
+footer span {
+  font-weight: 700;
+}
+
+.weather p {
+  font-size: 40px;
+}
+
+.above-the-fold article {
+  display: inline-block;
+}
+
+.weather {
+  width: 300px;
+}
