@@ -45,11 +45,11 @@ You will need to add more styling than mentioned below, google and the chrome de
 - [x] Set all articles inside the element with the class of `.click-bait` to have a `width` of `250px`.
 - [x] Set all articles inside the element with the class of `.click-bait` to have `16px` of margin and padding on all sides.
 - [x] Set all articles inside the element with the class of `.click-bait` to have `box-sizing` set to `border-box`.
-- [ ] Set all articles inside the element with the class of `.below-the-fold` to have a `display` of `inline-block`.
-- [ ] Set the image inside the element with the class of `.below-the-fold` to have a `display` of `inline-block`.
-- [ ] Set the image inside the element with the class of `.below-the-fold` to have `16px` of margin and padding on all sides.
-- [ ] Set the image inside the element with the class of `.below-the-fold` to have a `width` of `200px`.
-- [ ] Set the div inside the element with the class of `.below-the-fold` to have a `width` of `500px`.
+- [x] Set all articles inside the element with the class of `.below-the-fold` to have a `display` of `inline-block`.
+- [x] Set the image inside the element with the class of `.below-the-fold` to have a `display` of `inline-block`.
+- [x] Set the image inside the element with the class of `.below-the-fold` to have `16px` of margin and padding on all sides.
+- [x] Set the image inside the element with the class of `.below-the-fold` to have a `width` of `200px`.
+- [x] Set the div inside the element with the class of `.below-the-fold` to have a `width` of `500px`.
 
 Once your complete with the above tasks, your page should look something like the image below.
 
