@@ -34,4 +34,18 @@ footer span {
 
 .weather {
   width: 300px;
+  border: 2px solid gray;
 }
+
+.breaking-news {
+  width: 200px;
+}
+
+.click-bait article {
+  display: inline-block;
+  width: 250px;
+  margin: 16px;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
