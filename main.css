@@ -1,5 +1,5 @@
 * {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   text-align: center;
 }
 
@@ -7,12 +7,17 @@ body {
   background: #E6E5E5;
 }
 
-p, span {
-  font-family: sans-serif;
-}
-
 h1, h2, h3 {
   font-family: serif;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+p, span {
+  font-family: sans-serif;
+  font-size: 18px;
 }
 
 .above-the-fold {
@@ -27,22 +32,29 @@ h1, h2, h3 {
   width: 300px;
   height: 300px;
   border: 2px solid gray;
-  
 }
 
 .weather__content {
-  height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  gap: 10px;
+}
+
+h3 {
+  margin-top: 10px;
+  font-size: 30px;
+  margin-bottom: 0px;
 }
 
 .weather__emoji {
   font-size: 100px;
+  display: block;
+  margin-bottom: 20px;
 }
 
 .weather__temperature {
   font-size: 40px;
+  display: block;
 }
 
 .breaking-news {
@@ -66,6 +78,10 @@ h1, h2, h3 {
   padding: 16px;
   display: inline-block;
   vertical-align: top;
+}
+
+ol {
+  padding-left: 16px;
 }
 
 .below-the-fold {
@@ -103,7 +119,7 @@ ul {
   display: inline-block;
 }
 
-li {
+footer li {
   margin-bottom: 15px;
 }
 
