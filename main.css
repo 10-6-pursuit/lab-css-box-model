@@ -9,16 +9,21 @@ a {
 
 
 .weather{
+    width: auto;
+    padding: 0% 10% 0% 10%;
+    margin: 10% 10% 10% 10%;
+    border: 2px solid gray;
+    
     p {
         font-size: 40px;
     }
 }
 
 .weather__content {
-    width: 90px;
-    padding: 0% 10%;
+    /* width: 210px;
+    padding: 0% 10% 0% 10%;
     margin-top: 50px;
-    border: 2px solid gray ;
+    border: 2px solid gray; */
 
     p {
         font-family: sans-serif;
@@ -26,12 +31,15 @@ a {
 }
 
 .above-the-fold {
-    display: inline-block;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .breaking-news{
     padding: 20px 30px;
     text-align: center;
+    grid-column: 2 / 4 ;
+
     p {
         font-family: sans-serif;
     }
@@ -46,10 +54,10 @@ a {
 }
 
 .click-bait {
-    display: flex;
-    margin: 26px 26px 16px 46px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 16px 16px 16px 16px;
     padding: 16px 16px;
-    box-sizing: border-box;
 
     p {
         font-family: sans-serif;
@@ -59,28 +67,31 @@ a {
         padding: 10px 16px;
     }
 
-    ol {
-        width: 200px;
-        li {
-            text-align: center;
-            padding: 10px;
-            font-family: sans-serif;
-        }
+
+    li {
+        text-align: center;
+        padding: 10px;
+        font-family: sans-serif;
+        list-style-position: inside;
     }
 }
 
 .below-the-fold__item {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .below-the-fold__image{
-    margin: 16px 16px 16px 16px;
+    margin: auto;
     padding: 16px 16px;
-    width: 200px;
+    width: auto;
+    height: 350px;
 }
 
 .below-the-fold__content {
-    padding: 50px 70px;
+    margin: auto;
+    padding: 20px 30px;
+    grid-column: 2 / 4 ;
 
     p {
         font-family: sans-serif;
@@ -91,17 +102,15 @@ a {
     font-weight: 700;
 }
 
+
 .page__footer-links{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 
     ul {
+        margin: auto;
         list-style-type: none;
         font-family: sans-serif;
         font-size: 12px;
-
-        li {
-            padding: 5px 105px;
-        }
-
     }
 }
