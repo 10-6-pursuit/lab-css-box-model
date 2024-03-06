@@ -92,3 +92,10 @@ footer span {
     width: 500px;
 }
 
+
+.click-bait {
+    display: flex;
+    justify-content: space-between;
+}
+
+
