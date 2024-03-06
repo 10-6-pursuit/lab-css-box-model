@@ -28,7 +28,7 @@ You will need to add more styling than mentioned below, google and the chrome de
 }
 ```
 
-- [ ] Set all paragraph text to have a font of `sans-serif`.
+- [x ] Set all paragraph text to have a font of `sans-serif`.
 - [ ] Set all heading text to have a font of `serif`.
 - [ ] Set all heading text to be centered.
 - [ ] Set all anchor elements to have no text decoration.
