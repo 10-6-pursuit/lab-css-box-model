@@ -1,0 +1,98 @@
+body {
+    font-family: "Bitter";
+}
+
+.above-the-fold {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+p {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: serif;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #4242EA;
+}
+
+ul {
+    list-style: none;
+}
+
+span {
+    font-weight: 700;
+}
+
+.weather p {
+    font-size: 40px;
+}
+
+.above-the-fold article {
+    display: inline-block;
+}
+
+.weather {
+    width: 300px;
+    border: 2px solid gray;
+}
+
+.breaking-news {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    .breaking-news__image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+    }
+}
+
+.click-bait {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.click-bait article {
+    display: inline-block;
+    width: 400px;
+    margin: 16px;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+.below-the-fold__item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.below-the-fold img {
+    margin: 16px;
+    padding: 16px;
+    width: 200px;
+}
+
+.below-the-fold div {
+    width: 500px;
+}
+
+.page__footer-links {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+hr {
+    border: none;
+    height: 3px;
+    background-color: grey;
+}
