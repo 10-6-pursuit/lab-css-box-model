@@ -1,0 +1,148 @@
+/* * {
+   border: 1px solid gold;
+}
+ */
+
+p {
+    font-family: sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: serif;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #4242EA;
+}
+
+ul {
+    width: 350px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+}
+
+footer span {
+    font-weight: 700;
+}
+
+.page__footer-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather p {
+    font-size: 40px;
+}
+
+.above-the-fold {
+    display: flex;
+    justify-content: center;
+    /* margin: auto; */
+    align-items: center;
+    text-align: center;
+}
+
+.above-the-fold article {
+    display: inline-block;
+}
+
+.weather {
+    display: inline-block;
+    min-width: 300px;
+    max-width: 300px;
+    height: 300px;
+    border: 2px solid gray;
+}
+
+.weather__content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+h3 {
+    margin-top: 10px;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+  
+.weather__emoji {
+    font-size: 100px;
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+}
+  
+.weather__temperature {
+    font-size: 40px;
+    display: block;
+    text-align: center;
+}
+
+.breaking-news {
+    display: inline-block;
+    padding: 0px 30px;
+    text-align: center;
+}
+
+.breaking-news__image {
+    width: 200px;
+}
+
+.click-bait {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.click-bait__item {
+    display: inline-block;
+    width: 250px;
+    margin: 16px;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+.below-the-fold__item {
+    display: flex;
+    justify-content: center;
+
+}
+
+.below-the-fold__image {
+    display: inline-block;
+    margin: 16px;
+    padding: 16px;
+    width: 200px;
+}
+
+.below-the-fold__content {
+    display: inline-block;
+    width: 500px;
+    vertical-align: top;
+    margin-top: 150px;
+    justify-content: center;
+    text-align: center;
+}
+
+footer {
+
+    div {
+        display: flex;
+    }
+    li {
+        margin: 10px;
+    }
+}
+
+  .page__footer-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+  }
