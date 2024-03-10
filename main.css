@@ -1,6 +1,4 @@
-* {
-    border: 1px solid gold;
-}
+
 h1, h2, h3, h4, h5 {
     font-family: serif;
     text-align: center;
@@ -17,4 +15,46 @@ ul {
 }
 footer span {
     font-weight: 700;
+}
+
+.weather {
+    width: 300px;
+    border: 2px solid gray;
+    p {
+        font-size: 40px;
+        text-align: center;
+    }
+}
+.above-the-fold, .below-the-fold {
+    article{
+        display: inline-block;
+    }
+}
+
+.breaking-news {
+    
+    img (
+        width: 200px;
+        )
+
+}
+
+.click-bait article {
+    display: inline-block;
+    width: 250px;
+    margin: 16px;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+.below-the-fold {
+    img {
+        display: inline-block;
+        margin: 16px;
+        padding: 16px;
+        width: 200px;
+    }
+    div {
+        width: 500px;
+    }
 }
