@@ -21,7 +21,7 @@ ul {
     width: 350px;
     margin: 0;
     padding: 0;
-    list-style-type: none;
+    list-style: none;
     display: inline-block;
 }
 
@@ -42,8 +42,9 @@ footer span {
 .above-the-fold {
     display: flex;
     justify-content: center;
-    margin: auto;
+    /* margin: auto; */
     align-items: center;
+    text-align: center;
 }
 
 .above-the-fold article {
@@ -51,7 +52,9 @@ footer span {
 }
 
 .weather {
-    width: 300px;
+    display: inline-block;
+    min-width: 300px;
+    max-width: 300px;
     height: 300px;
     border: 2px solid gray;
 }
@@ -84,7 +87,6 @@ h3 {
 .breaking-news {
     display: inline-block;
     padding: 0px 30px;
-    width: 775px;
     text-align: center;
 }
 
@@ -94,18 +96,16 @@ h3 {
 
 .click-bait {
     display: flex;
-    justify-content: center;
-    width: 1167px;
+    justify-content: space-evenly;
+    text-align: center;
 }
 
 .click-bait__item {
-    box-sizing: border-box;
+    display: inline-block;
     width: 250px;
     margin: 16px;
     padding: 16px;
-    display: inline-block;
-    justify-content: center;
-    text-align: center;
+    box-sizing: border-box;
 }
 
 .below-the-fold__item {
@@ -128,6 +128,16 @@ h3 {
     margin-top: 150px;
     justify-content: center;
     text-align: center;
+}
+
+footer {
+
+    div {
+        display: flex;
+    }
+    li {
+        margin: 10px;
+    }
 }
 
   .page__footer-links {
