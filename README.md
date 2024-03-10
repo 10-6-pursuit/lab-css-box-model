@@ -28,27 +28,27 @@ You will need to add more styling than mentioned below, google and the chrome de
 }
 ```
 
-- [ ] Set all paragraph text to have a font of `sans-serif`.
-- [ ] Set all heading text to have a font of `serif`.
-- [ ] Set all heading text to be centered.
-- [ ] Set all anchor elements to have no text decoration.
-- [ ] Set all anchor elements to have a color of `#4242EA`.
-- [ ] Set all unordered lists to have no list-style.
-- [ ] Set all `span` elements inside the footer to have a `font-weight` of `700`.
-- [ ] Set all paragraph text inside the element with the class of `weather` to have a font size of `40px`.
-- [ ] Set all articles inside the `.above-the-fold` element to have a `display` value of `inline-block`.
-- [ ] Set the `.weather` element to have a `width` of `300px`.
-- [ ] Set the `.weather` element to have a `2px gray border` on all sides.
-- [ ] Set the `.breaking-news` element to have a top/down padding of `0px` and a left/right padding of `30px`.
-- [ ] Set the image inside of the `.breaking-news` element to have a `width` of `200px`.
-- [ ] Set all articles inside the element with the class of `.click-bait` to have a `display` of `inline-block`.
-- [ ] Set all articles inside the element with the class of `.click-bait` to have a `width` of `250px`.
-- [ ] Set all articles inside the element with the class of `.click-bait` to have `16px` of margin and padding on all sides.
-- [ ] Set all articles inside the element with the class of `.click-bait` to have `box-sizing` set to `border-box`.
-- [ ] Set all articles inside the element with the class of `.below-the-fold` to have a `display` of `inline-block`.
-- [ ] Set the image inside the element with the class of `.below-the-fold` to have a `display` of `inline-block`.
-- [ ] Set the image inside the element with the class of `.below-the-fold` to have `16px` of margin and padding on all sides.
-- [ ] Set the image inside the element with the class of `.below-the-fold` to have a `width` of `200px`.
+- [X] Set all paragraph text to have a font of `sans-serif`.
+- [X] Set all heading text to have a font of `serif`.
+- [X] Set all heading text to be centered.
+- [X] Set all anchor elements to have no text decoration.
+- [X] Set all anchor elements to have a color of `#4242EA`.
+- [X] Set all unordered lists to have no list-style.
+- [X] Set all `span` elements inside the footer to have a `font-weight` of `700`.
+- [X] Set all paragraph text inside the element with the class of `weather` to have a font size of `40px`.
+- [X] Set all articles inside the `.above-the-fold` element to have a `display` value of `inline-block`.
+- [X] Set the `.weather` element to have a `width` of `300px`.
+- [X] Set the `.weather` element to have a `2px gray border` on all sides.
+- [X] Set the `.breaking-news` element to have a top/down padding of `0px` and a left/right padding of `30px`.
+- [X] Set the image inside of the `.breaking-news` element to have a `width` of `200px`.
+- [X] Set all articles inside the element with the class of `.click-bait` to have a `display` of `inline-block`.
+- [X] Set all articles inside the element with the class of `.click-bait` to have a `width` of `250px`.
+- [X] Set all articles inside the element with the class of `.click-bait` to have `16px` of margin and padding on all sides.
+- [X] Set all articles inside the element with the class of `.click-bait` to have `box-sizing` set to `border-box`.
+- [X] Set all articles inside the element with the class of `.below-the-fold` to have a `display` of `inline-block`.
+- [X] Set the image inside the element with the class of `.below-the-fold` to have a `display` of `inline-block`.
+- [X] Set the image inside the element with the class of `.below-the-fold` to have `16px` of margin and padding on all sides.
+- [X] Set the image inside the element with the class of `.below-the-fold` to have a `width` of `200px`.
 - [ ] Set the div inside the element with the class of `.below-the-fold` to have a `width` of `500px`.
 
 Once your complete with the above tasks, your page should look something like the image below.
