@@ -15,3 +15,21 @@ a {
 ul {
     list-style: none;
 }
+
+footer span {
+    font-weight: 700;
+}
+
+/* .weather {
+    p {
+        font-size: 40px;
+    }
+} */
+
+.weather p {
+    font-size: 40px;
+}
+
+.above-the-fold article {
+    display: inline-block;
+}
