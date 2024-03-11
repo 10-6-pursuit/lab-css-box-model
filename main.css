@@ -25,16 +25,12 @@ footer span {
     display: inline-block;
     min-width: 300px;
     max-width: 300px;
-
-    p {
-        font-size: 40px;
-        text-align: center;
-    }
 }
 
-/* .weather p {
+.weather p {
     font-size: 40px;
-} */
+    text-align: center;
+}
 
 .above-the-fold {
     article {
@@ -49,6 +45,10 @@ footer span {
 
 }
 
+/* .above-the-fold img {
+    width: 200px;
+} */
+
 .below-the-fold {
     article {
         display: flex;
@@ -59,11 +59,11 @@ footer span {
         display: inline-block;
         margin: 16px 16px 16px 60px;
         padding: 16px;
-        width: 150px;
+        width: 200px;
     }
     div {
         margin-left: 90px;
-        width: 700px;
+        width: 500px;
     }
 }
 
@@ -80,12 +80,12 @@ footer span {
 
 .click-bait {
     display: flex;
-    justify-content: space-evenly;
+    /* justify-content:space-evenly; */
     text-align: center;
 
     article { 
         display: inline-block;
-        width: 250px;
+        width: 300px;
         margin: 16px;
         padding: 16px;
         box-sizing: border-box;
