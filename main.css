@@ -29,35 +29,34 @@ footer span{
 }
 
 .weather {
-    width: 300px;
+    min-width: 25%;
+    max-width: 300px;
     border: 2px solid gray;
     text-align: center;
-    grid-column: 1 / 2;
+}
+
+.weather article{
+    display: inline-block;
 }
 
 .breaking-news {
     padding: 0px 30px;
     text-align: center;
-    grid-column: 2 / 5;
 }
 
 .breaking-news img{
-    width: 200px
+    width: 200px;
 }
 
-.above-the-fold {
-    display: grid;
-    grid-template-columns: 4; 
-
-}
 .above-the-fold article{
     display: inline-block;
 }
 
-.click-bait {
+.above-the-fold {
     display: flex;
-    justify-content: space-around;
+    align-items: center;
 }
+
 .click-bait article{
     display: inline-block;
     width: 250px;
@@ -66,12 +65,20 @@ footer span{
     box-sizing: border-box;
 }
 
-.below-the-fold {
+.click-bait {
     display: flex;
+    justify-content: space-between;
+
+    article{
+        text-align: center;
+    }
 }
 
 .below-the-fold article{
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    align-items: last baseline;
+    justify-content: center;
 }
 
 .below-the-fold img{
@@ -85,8 +92,15 @@ footer span{
     width: 500px;
 }
 
+.below-the-fold_item {
+  
+}
 .page__footer-links {
     display: flex;
     justify-content: space-evenly;
     text-align: center;
+}
+
+.page__footer-section-item{
+    margin: 10px;
 }
